@@ -1,0 +1,5 @@
+N = int(input('Insira um número: '))
+D = (N*2)
+T = (N*3)
+R = N ** (1/2)
+print('O dobro de {} é {}. \nO triplo de {} é {}. \nE a raiz quadrade de {} é {}.'.format(N,D,N,T,N,R))

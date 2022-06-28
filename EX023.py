@@ -1,0 +1,7 @@
+numero = str(input('Informe um número de 0 a 9999: '))
+print('_'*12)
+print('- A unidade é {}.'.format(numero[3]))
+print('- A dezena é {}.'.format(numero[2]))
+print('- A centena é {}.'.format(numero[1]))
+print('- O milhar é {}.'.format(numero[0]))
+print('_'*12)
